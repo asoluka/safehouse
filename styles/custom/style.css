@@ -1,0 +1,180 @@
+.green {
+    background-color: #62E000;
+    color: white;
+}
+.white {
+    background-color: white;
+}
+
+.bordered{border: 1px solid black;}
+.shadow {
+    -webkit-box-shadow: 1px 8px 23px -5px rgba(191,185,191,0.52);
+    -moz-box-shadow: 1px 8px 23px -5px rgba(191,185,191,0.52);
+    box-shadow: 1px 8px 23px -5px rgba(191,185,191,0.52);
+}
+.eighty-percent-vh {
+    min-height: 80vh;
+}
+
+.full-height {
+    min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-bottom: 1rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 2rem;
+}
+
+h4.heading-exempt {margin-top: 10px !important;}
+
+.bg-light {
+    background-color: transparent !important;
+}
+
+.f-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-center-vr {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.height-inherit {min-height: inherit;}
+
+.navbar {
+    z-index: 999999;
+    padding-top: 30px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white !important;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.purchase-property {
+    margin-top: -90px;
+}
+
+.banner-input {
+    min-height: 9vh !important;
+    border: 0px !important;
+}
+
+.banner-input-group {
+    z-index: 99999;
+    margin-left: 60px !important;
+}
+
+.input-container {
+    margin-left: 110px;
+    border-radius: 5px;
+}
+.banner-input-group > .form-control:focus {
+    border: 0px !important;
+}
+input[type="text"] {
+    min-height: 9vh;
+}
+
+.hero-section {
+    min-height: inherit;
+    background-image: url(../../img/hero_house.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.step-card-square {background-color: #fff; border-radius: 5px; min-height: 350px !important;}
+
+.step-card-rectangle {
+    background-color: #fff; 
+    border-radius: 5px; 
+    min-height: 125px !important;
+}
+
+.hiw-heading {
+    text-align: center;
+}
+
+.how-it-works {
+    background-color: rgb(226, 225, 225);
+}
+
+span.step-number {
+    padding: 21px 30px;
+    border-radius: 50%;
+    color: white;
+    font-size: 1.5em;
+    -webkit-box-shadow: 0px 6px 15px -1px rgba(191,185,191,1);
+    -moz-box-shadow: 0px 6px 15px -1px rgba(191,185,191,1);
+    box-shadow: 0px 6px 15px -1px rgba(191,185,191,1);
+}
+
+.step-number.one, .step-number.five, .step-number.seven {
+    background-color: #92DD5F;
+}
+
+.step-number.two, .step-number.six {
+    background-color: #F18F10;
+}
+
+.step-number.three, .step-number.four {
+    background-color: #1440EF;
+}
+
+.wwa-second-part {
+    min-height: 40vh;
+}
+
+.who-we-are {
+    border-bottom: 1px solid #cbcbcb;
+}
+
+.read-more {
+    width: 150px;
+}
+
+.step-rectangle-1 {
+    background-color: #92DD5F;
+    padding: 15px 15px;
+}
+
+.step-rectangle-2 {
+    background-color: #F18F10;
+    padding: 15px 15px;
+}
+
+.step-rectangle-3 {
+    background-color: #1440EF;
+    padding: 15px 15px;
+}
+
+.more-info-card {
+    min-height: 30vh;
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 12px 23px 0px rgba(191,185,191,0.52);
+    -moz-box-shadow: 1px 12px 23px 0px rgba(191,185,191,0.52);
+    box-shadow: 1px 12px 23px 0px rgba(191,185,191,0.52);
+}
+
+ul.footer-links{
+    list-style-type: none;
+}
+
+ul.footer-links li {
+    padding: 10px 0;
+}
+
+.social-media {
+    border-radius: 5px;
+    min-height: 60px;
+}
+
+.newsletter {
+    margin-top: -30px !important;
+}
