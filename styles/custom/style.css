@@ -12,17 +12,10 @@
     -moz-box-shadow: 1px 8px 23px -5px rgba(191,185,191,0.52);
     box-shadow: 1px 8px 23px -5px rgba(191,185,191,0.52);
 }
-.eighty-percent-vh {
-    min-height: 80vh;
-}
-
-.full-height {
-    min-height: 100vh;
-}
-
-.half-height {
-    min-height: 50vh;
-}
+.eighty-percent-vh { min-height: 80vh; }
+.full-height { min-height: 100vh; }
+.half-height { min-height: 50vh; }
+.quarter-height { min-height: 25vh; }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     margin-bottom: 1rem;
